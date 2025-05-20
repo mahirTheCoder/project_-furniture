@@ -1,0 +1,482 @@
+/* ===============common css part start=========== */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bgColor: #F2F5FF;
+  --montserrat: "Montserrat", sans-serif;
+  --primeryColor: #333333;
+  --brandColor:  #054C73;
+
+
+}
+/* ===============common css part end=========== */
+
+
+
+
+/* ================ navbar css part start============= */
+
+.main_nav img {
+  width: 167px;
+}
+
+.main_nav {
+  padding-top: 43px;
+  padding-bottom: 38px;
+}
+
+.main_nav ul {
+  gap: 70px;
+}
+
+.main_nav ul li a {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primeryColor);
+  font-family: var(--montserrat);
+  position: relative;
+} 
+
+.main_nav ul li a::before {
+  content: '';
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--brandColor);
+  transition: all linear 0.4s;
+}
+
+.main_nav ul li a:hover::before {
+  width: 100%;
+}
+
+/* ================ navbar css part end============= */
+
+/* ================collection section css part start============= */
+
+#collection {
+  background-image: url(../images1/banner.jpg);
+  height: 749px;
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+  padding-top: 152px;
+}
+
+.collectin_text {
+  width: 643px;
+  background: #DFE9F4;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-left: 27px;
+  padding-bottom: 38px;
+  margin-left: auto;
+  
+}
+
+.collectin_text h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primeryColor);
+  font-family: var(--montserrat);
+  margin-bottom: 20px;
+}
+
+.collectin_text h1 {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 65px;
+  color: var(--brandColor);
+  font-family: var(--montserrat);
+  margin-bottom: 20px;
+}
+
+.collectin_text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 39px;
+  color: var(--primeryColor);
+  font-family: var(--montserrat); 
+  margin-bottom: 30px;
+}
+
+.collectin_text a {
+
+  width: 229px;
+  height: 70px;
+  background: var(--brandColor);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  font-family: var(--montserrat);
+}
+
+/* ================collection section css part end============= */
+
+
+/* ================service css part start============= */
+#Services {
+  height: 150px;
+  background: var(--bgColor);
+  padding-top: 49px;
+  padding-bottom: 51px;
+}
+
+.service_text {
+  display: flex;
+  gap: 27px;
+}
+
+.service_text img {
+  width: 83px;
+}
+
+.text_services h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primeryColor);
+  font-family: var(--montserrat); 
+}
+
+.text_services p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primeryColor);
+  font-family: var(--montserrat);
+}
+
+
+.service_text2{
+  display: flex;
+  gap: 27px;
+}
+
+.service_text2 img {
+
+  width: 59px;
+}
+
+
+.service_text3{
+  display: flex;
+  gap: 27px;
+}
+
+.service_text3 img{
+width: 55px;
+}
+
+/* ================service css part end============= */
+
+
+/* ================inspiration section css part start============= */
+
+#inspiration{
+  padding-top: 60px;
+}
+
+.common_head {
+  text-align: center;
+}
+
+.common_head h2 {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--primeryColor);
+  font-family: var(--montserrat);
+  margin-bottom: 13px;
+}
+
+.common_head p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+  font-family: var(--montserrat);
+}
+
+.inspiration_img {
+  padding-top: 98px;
+}
+
+.inspiration_img:hover{
+  padding-top: 19px;
+}
+
+/* ================inspiration section css part end============= */
+
+/* ================beautify section css part start============= */
+
+#beautify{
+  background: var(--bgColor);
+  height: 874px;
+  margin-top: 66px;
+}
+
+.beautify_text h2 {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--primeryColor);
+  font-family: var(--montserrat);
+  margin-bottom: 25px;
+}
+
+.beautify_text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+  font-family: var(--montserrat);
+  margin-bottom: 25px;
+
+}
+
+.beautify_text a {
+  width: 228px;
+  height: 68px;
+  background: var(--brandColor);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  font-family: var(--montserrat);
+}
+
+.beautify_text {
+  padding-top: 361px;
+}
+.beautify_img{
+  width: 568px;
+  height: 754px;
+  margin-top: 120px;
+}
+/* ================beautify section css part end============= */
+
+/* ================range section css part start============= */
+
+#range {
+  margin-top: 117px;
+}
+
+.range_picture {
+  margin-top: 50px;
+} 
+
+.range_picture h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primeryColor);
+  font-family: var(--montserrat);
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* ================range section css part end============= */
+
+/* ================work section css part start============= */
+
+#works {
+  margin-top: 221px;
+}
+
+.work_img {
+  padding-top: 50px;
+  position: relative;
+
+}
+
+.work_img h2 {
+  width: 90px;
+  height: 90px;
+  background: #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFF;
+  font-family: var(--montserrat);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 15px solid white;
+
+}
+
+.workimg_text {
+  padding-top: 74px;
+  text-align: center;
+}
+
+.workimg_text h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primeryColor);
+  font-family: var(--montserrat);
+
+}
+
+.workimg_text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+  font-family: var(--montserrat);
+}
+
+
+/* ================work section css part end============= */
+
+/* ================mail section css part start============= */
+
+#mail {
+  height: 363px;
+  background: var(--bgColor);
+  margin-top: 198px;
+
+}
+
+#mail .common_head{
+margin-top: 59px;
+}
+.common_head .textp {
+  width: 514px;
+  line-height: 39px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#mail .mail_form {
+  width: 488px;
+  height: 67px;
+  background: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mail .mail_form input {
+  width: 70%;
+  padding-left: 23px;
+  border-radius: 3px;
+  border: 2px solid var(--primeryColor);
+}
+
+#mail .mail_form a {
+  width: 153px;
+  background: var(--brandColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  border-radius: 3px;
+}
+
+/* ================mail section css part end============= */
+
+
+/* ================ footer section css part start============= */
+#footer {
+  height: 386px;
+  background: var(--brandColor);
+}
+
+.footer_text {
+  padding-top: 49px;
+}
+
+.footer_text h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFF;
+  font-family: var(--montserrat);
+  margin-bottom: 34px;
+}
+
+.footer_text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #FFF;
+  font-family: var(--montserrat);
+  margin-bottom: 21px;
+
+}
+
+.footer_pictures {
+ padding-top: 49px;
+
+}
+
+.footer_pictures_tex h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFF;
+  font-family: var(--montserrat);
+  margin-bottom: 34px;
+}
+
+.footer_pic {
+  display: flex;
+  gap: 21px;
+}
+
+/* ================footer section  css part end============= */
+
+/* ================ css part start============= */
+
+/* ================ css part end============= */
+
+/* ================ css part start============= */
+
+/* ================ css part end============= */
+
+/* ================ css part start============= */
+
+/* ================ css part end============= */
+
+/* ================ css part start============= */
+
+/* ================ css part end============= */
+
+/* ================ css part start============= */
+
+/* ================ css part end============= */
