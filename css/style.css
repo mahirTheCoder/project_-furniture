@@ -317,12 +317,53 @@ width: 55px;
 }
 
 .work_img {
-  padding-top: 50px;
+  margin-top: 50px;
   position: relative;
+  overflow: hidden;
 
 }
+.work_img1 ul li a {
+  color: #FFF;
+  overflow: hidden;
+}
 
-.work_img h2 {
+.work_img1 ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  opacity: 0;
+}
+.work_img1:hover ul{
+  bottom: 50px;
+  transition: all  linear 1s;
+  opacity: 100%;
+}
+
+
+.work_img1::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(179deg,rgba(0, 0, 0, 0) 43%, rgba(0, 0, 0, 1) 100%);
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  border-radius: 12px;
+  transition: all linear 0.4s;
+  z-index: 0;
+}
+
+.work_img1:hover:after {
+  bottom: 0;
+}
+
+/* .work_img h2 {
   width: 90px;
   height: 90px;
   background: #000;
@@ -339,8 +380,8 @@ width: 55px;
   left: 50%;
   transform: translate(-50%, -50%);
   border: 15px solid white;
-
-}
+  z-index: 3;
+} */
 
 .workimg_text {
   padding-top: 74px;
@@ -459,24 +500,8 @@ margin-top: 59px;
   gap: 21px;
 }
 
+.footer_pic:hover{
+  transform: rotate(4deg)
+}
+
 /* ================footer section  css part end============= */
-
-/* ================ css part start============= */
-
-/* ================ css part end============= */
-
-/* ================ css part start============= */
-
-/* ================ css part end============= */
-
-/* ================ css part start============= */
-
-/* ================ css part end============= */
-
-/* ================ css part start============= */
-
-/* ================ css part end============= */
-
-/* ================ css part start============= */
-
-/* ================ css part end============= */
