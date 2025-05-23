@@ -1,0 +1,27 @@
+:root {
+  --bgColor: #F2F5FF;
+  --montserrat: "Montserrat", sans-serif;
+  --primeryColor: #333333;
+  --brandColor:  #054C73;
+}
+
+ @media (min-width: 0) and (max-width: 575.98px) { 
+  .main_nav ul{
+  align-items: center;
+  gap: 30px;
+  background-color: var(--brandColor);
+  border-radius: 12px;
+  padding: 15px 0;
+}
+ .main_nav ul li a{
+  color: #ffffff !important;
+   }
+ .main_nav img {
+	width: 140px;
+  margin-bottom: 10px;
+}
+  .navbar-toggler {
+	padding: 5px;
+  color: #054C73;
+}   
+ }
