@@ -2,26 +2,203 @@
   --bgColor: #F2F5FF;
   --montserrat: "Montserrat", sans-serif;
   --primeryColor: #333333;
-  --brandColor:  #054C73;
+  --brandColor: #054C73;
 }
 
- @media (min-width: 0) and (max-width: 575.98px) { 
-  .main_nav ul{
-  align-items: center;
-  gap: 30px;
-  background-color: var(--brandColor);
-  border-radius: 12px;
-  padding: 15px 0;
+@media (min-width: 0) and (max-width: 575.98px) {
+
+  /* ---------------main nav --------------------- */
+  .main_nav ul {
+    align-items: center;
+    gap: 30px;
+    background-color: var(--brandColor);
+    border-radius: 12px;
+    padding: 15px 0;
+  }
+
+  .main_nav ul li a {
+    color: #ffffff !important;
+  }
+
+  .main_nav img {
+    width: 127px;
+    margin-bottom: 20px;
+  }
+
+  .navbar-toggler {
+    padding: 5px;
+    color: #054C73;
+    margin-bottom: 20px;
+  }
+
+  .navbar-toggler:focus {
+
+    box-shadow: 0px 1px 6px 4px rgba(5, 76, 115, 0.87);
+  }
+/* -------------section collection -------------------- */
+  #collection {
+    padding-top: 60px;
+    height: 518px;
+  }
+
+  .collectin_text {
+    width: 100%;
+  }
+
+  .collectin_text h6 {
+
+    margin-bottom: 10px;
+  }
+
+  .collectin_text h1 {
+    font-size: 27px;
+    line-height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .collectin_text p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .collectin_text a {
+    width: 99px;
+    height: 39px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+
+
+/* --------------section service---------------- */
+  #Services {
+	padding-top: 33px;
+	padding-bottom: 33px;
 }
- .main_nav ul li a{
-  color: #ffffff !important;
-   }
- .main_nav img {
-	width: 140px;
+ .service_text img {
+	width: 50px;
+	height: 40px;
   margin-bottom: 10px;
 }
-  .navbar-toggler {
-	padding: 5px;
-  color: #054C73;
-}   
- }
+.text_services h2 {
+	font-size: 16px;
+
+}
+.text_services p {
+	font-size: 12px;
+}
+.service_text2 img {
+	width: 50px;
+	height: 40px;
+  margin-bottom: 10px;
+}
+.service_text3 img {
+	width: 50px;
+	height: 40px;
+}
+/* -----------section inspiration------------------- */
+#inspiration {
+	padding-top: 47px;
+}
+.common_head h2 {
+	font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.common_head p {
+	font-size: 13px;
+}
+
+/* -------------section beautify-------------------- */
+
+.beautify_text {
+	padding-top: 0px;
+}
+
+.beautify_text h2 {
+	font-size: 26px;
+}
+.beautify_text p {
+	font-size: 13px;
+}
+.beautify_text a {
+	width: 136px;
+	height: 45px;
+	border-radius: 6px;
+	font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.beautify_img {
+	width: 299px;
+  height: 754px;
+
+}
+/* -------------section range---------------------- */
+#range {
+	margin-top: 52px;
+}
+.common_head h2 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.range_picture h2 {
+	font-size: 25px;
+	margin-top: 18px;
+}
+
+/* ----------------section works -------------------- */
+#works {
+	margin-top: 56px;
+}
+.common_head h2 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.common_head p {
+	font-size: 11px;
+}
+.workimg_text {
+	padding-top: 32px;
+}
+.workimg_text h2 {
+	font-size: 27px;
+}
+.workimg_text p {
+	font-size: 13px;
+}
+
+/* ---------------section mail----------------- */
+#mail {
+
+	margin-top: 55px;
+}
+.common_head .textp {
+	width: 300px;
+	line-height: 18px;
+
+}
+#mail .mail_form {
+	width: 100%;
+	height: 67px;
+}
+/* ------------------section footer-------------- */
+#footer {
+	height: 100%;
+	background: var(--brandColor);
+}
+
+.footer_text h2 {
+	font-size: 25px;
+	margin-bottom: 34px;
+}
+.footer_text p {
+	font-size: 13px;
+	line-height: 30px;
+}
+.footer_pictures_tex h2 {
+	font-size: 24px;
+}
+.footer_pic {
+  flex-wrap: wrap;
+}
+}

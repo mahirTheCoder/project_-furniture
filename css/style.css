@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
 
 /* ================service css part start============= */
 #Services {
-  height: 150px;
+  /* height: 150px; */
   background: var(--bgColor);
   padding-top: 49px;
   padding-bottom: 51px;
@@ -241,6 +241,8 @@ width: 55px;
 /* ================beautify section css part start============= */
 
 #beautify{
+  padding-top: 58px;
+  padding-bottom: 62px;
   background: var(--bgColor);
   height: 874px;
   margin-top: 66px;
@@ -278,12 +280,10 @@ width: 55px;
 }
 
 .beautify_text {
-  padding-top: 361px;
+  padding-top: 237px;
 }
 .beautify_img{
   width: 568px;
-  height: 754px;
-  margin-top: 120px;
 }
 /* ================beautify section css part end============= */
 
@@ -496,10 +496,6 @@ margin-top: 59px;
 .footer_pic {
   display: flex;
   gap: 21px;
-}
-
-.footer_pic:hover{
-  transform: rotate(4deg)
 }
 
 /* ================footer section  css part end============= */
