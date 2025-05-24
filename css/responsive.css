@@ -7,7 +7,7 @@
 
 @media (min-width: 0) and (max-width: 575.98px) {
 
-  /* ---------------main nav --------------------- */
+  /* ---------------main nav ---------------------*/
   .main_nav ul {
     align-items: center;
     gap: 30px;
@@ -35,7 +35,8 @@
 
     box-shadow: 0px 1px 6px 4px rgba(5, 76, 115, 0.87);
   }
-/* -------------section collection -------------------- */
+
+  /* -------------section collection -------------------- */
   #collection {
     padding-top: 60px;
     height: 518px;
@@ -69,135 +70,408 @@
   }
 
 
-/* --------------section service---------------- */
+  /* --------------section service---------------- */
   #Services {
-	padding-top: 33px;
-	padding-bottom: 33px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+
+  .service_text img {
+    width: 50px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .text_services h2 {
+    font-size: 16px;
+
+  }
+
+  .text_services p {
+    font-size: 12px;
+  }
+
+  .service_text2 img {
+    width: 50px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .service_text3 img {
+    width: 50px;
+    height: 40px;
+  }
+
+  /* -----------section inspiration------------------- */
+  #inspiration {
+    padding-top: 47px;
+  }
+
+  .common_head h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .common_head p {
+    font-size: 13px;
+  }
+
+  /* -------------section beautify-------------------- */
+
+  .beautify_text {
+    padding-top: 0px;
+  }
+
+  .beautify_text h2 {
+    font-size: 26px;
+  }
+
+  .beautify_text p {
+    font-size: 13px;
+  }
+
+  .beautify_text a {
+    width: 136px;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .beautify_img {
+    width: 299px;
+    height: 754px;
+
+  }
+
+  /* -------------section range----------------------*/
+  #range {
+    margin-top: 52px;
+  }
+
+  .common_head h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .range_picture h2 {
+    font-size: 25px;
+    margin-top: 18px;
+  }
+
+  /* ----------------section works --------------------*/
+  #works {
+    margin-top: 56px;
+  }
+
+  .common_head h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .common_head p {
+    font-size: 11px;
+  }
+
+  .workimg_text {
+    padding-top: 32px;
+  }
+
+  .workimg_text h2 {
+    font-size: 27px;
+  }
+
+  .workimg_text p {
+    font-size: 13px;
+  }
+
+  /* ---------------section mail----------------- */
+  #mail {
+
+    margin-top: 55px;
+  }
+
+  .common_head .textp {
+    width: 300px;
+    line-height: 18px;
+
+  }
+
+  #mail .mail_form {
+    width: 100%;
+    height: 67px;
+  }
+
+  /* ------------------section footer-------------- */
+  #footer {
+    height: 100%;
+    background: var(--brandColor);
+  }
+
+  .footer_text h2 {
+    font-size: 25px;
+    margin-bottom: 34px;
+  }
+
+  .footer_text p {
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  .footer_pictures_tex h2 {
+    font-size: 24px;
+  }
+
+  .footer_pic {
+    flex-wrap: wrap;
+  }
 }
- .service_text img {
-	width: 50px;
-	height: 40px;
-  margin-bottom: 10px;
+
+/* --------------------responsive small device------------------- */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /* ---------------main nav ---------------------*/
+  .main_nav {
+	padding-top: 38px;
+	padding-bottom: 38px;
 }
+.main_nav ul {
+  align-items: center;
+	gap: 43px;
+  background-color: var(--brandColor) !important;
+  border-radius: 25px;
+  padding: 25px 0;
+}
+.main_nav ul li a {
+  color: #fff !important;
+}
+
+  .navbar-toggler:focus {
+
+    box-shadow: 0px 1px 6px 4px rgba(5, 76, 115, 0.87);
+  }
+  /* -------------section collection -------------------- */
+#collection {
+	padding-top: 84px;
+  
+  height: 606px;
+}
+.collectin_text {
+	width: 100%;
+}
+.collectin_text h6 {
+	font-size: 23px;
+}
+.collectin_text p {
+	font-size: 17px;
+	line-height: 36px;
+}
+
+.collectin_text a {
+	width: 148px;
+	height: 62px;
+	background: var(--brandColor);
+	border-radius: 41px;
+}
+
+/* ----------------service section--------------------- */
+.service_text {
+	display: flex;
+	gap:px;
+}
+
+.service_text img {
+	width: 92px;
+  margin-bottom: 20px;
+}
+
 .text_services h2 {
-	font-size: 16px;
+	font-size: 31px;
+}
 
-}
-.text_services p {
-	font-size: 12px;
-}
 .service_text2 img {
-	width: 50px;
-	height: 40px;
-  margin-bottom: 10px;
+	width: 85px;
+  margin-bottom: 20px;
 }
+
 .service_text3 img {
-	width: 50px;
-	height: 40px;
-}
-/* -----------section inspiration------------------- */
-#inspiration {
-	padding-top: 47px;
-}
-.common_head h2 {
-	font-size: 25px;
-  margin-bottom: 15px;
+	width: 85px;
 }
 
-.common_head p {
-	font-size: 13px;
+.text_services p {
+	font-size: 20px;
 }
 
-/* -------------section beautify-------------------- */
+/* -----------------beautify section---------------- */
 
+#beautify {
+	height: 100%;
+}
 .beautify_text {
 	padding-top: 0px;
 }
 
-.beautify_text h2 {
-	font-size: 26px;
-}
 .beautify_text p {
-	font-size: 13px;
+	font-size: 18px;
 }
+
 .beautify_text a {
-	width: 136px;
-	height: 45px;
-	border-radius: 6px;
-	font-size: 15px;
+	width: 158px;
+	height: 62px;
+	border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+  .beautify_img {
+    width: 100%;
+    height: 684px;
+  }
+
+/* -----------work section-----------------*/
+#works {
+	margin-top: 72px;
+}
+
+/* ----------------------------footer section------------------------- */
+#footer {
+	height: 100%;
+}
+
+.footer_pic {
+  flex-wrap: wrap;
+}
+}
+
+/* ----------------responsive medium device--------------------- */
+
+
+/* ------------------navbar section---------------------- */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .main_nav {
+	padding-top: 38px;
+
+}
+.main_nav ul {
+  align-items: center;
+	gap: 43px;
+  background-color: var(--brandColor) !important;
+  border-radius: 25px;
+  padding: 25px 0;
+}
+.main_nav ul li a {
+  color: #fff !important;
+}
+
+  .navbar-toggler:focus {
+
+    box-shadow: 0px 1px 6px 4px rgba(5, 76, 115, 0.87);
+  }
+
+  /* --------------collection section----------------- */
+
+  #collection {
+	padding-top: 90px;
+}
+
+.collectin_text a {
+	width: 142px;
+	height: 48px;
+	border-radius: 14px;
+}
+
+#collection {
+	height: 698px;
+	padding-top: 133px;
+}
+
+.collectin_text {
+	width: 100%;
+}
+
+/* ------------------service section---------------- */
+
+.service_text img {
+	width: 83px;
+  margin-bottom: 20px;
+}
+
+.service_text2 img {
+	width: 83px;
+  margin-bottom: 20px;
+}
+
+.service_text3 img {
+	width: 83px;
+}
+
+/* -------------------- beautify section----------------*/
+#beautify {
+	height: 100%;
+}
+.beautify_text {
+	padding-top: 0px;
+}
+
+.beautify_text a {
+	width: 201px;
+	height: 68px;
   margin-bottom: 30px;
 }
 
 .beautify_img {
-	width: 299px;
-  height: 754px;
-
-}
-/* -------------section range---------------------- */
-#range {
-	margin-top: 52px;
-}
-.common_head h2 {
-	font-size: 25px;
-	margin-bottom: 15px;
-}
-.range_picture h2 {
-	font-size: 25px;
-	margin-top: 18px;
+	width: 100%;
 }
 
-/* ----------------section works -------------------- */
+/* -------------------work section---------------- */
+
 #works {
-	margin-top: 56px;
+	margin-top: 133px;
 }
-.common_head h2 {
-	font-size: 25px;
-	margin-bottom: 15px;
-}
-.common_head p {
-	font-size: 11px;
-}
-.workimg_text {
-	padding-top: 32px;
-}
+
 .workimg_text h2 {
-	font-size: 27px;
+	font-size: 43px;
 }
 .workimg_text p {
-	font-size: 13px;
+	font-size: 23px;
 }
 
-/* ---------------section mail----------------- */
+.common_head h2 {
+	font-size: 48px;
+}
+
+ .common_head p {
+	font-size: 24px;
+}
+
+/* ------------------mail section--------------- */
 #mail {
-
-	margin-top: 55px;
+	margin-top: 115px;
 }
+
 .common_head .textp {
-	width: 300px;
-	line-height: 18px;
-
-}
-#mail .mail_form {
 	width: 100%;
-	height: 67px;
 }
-/* ------------------section footer-------------- */
+
+/* ---------------footer section---------------- */
 #footer {
 	height: 100%;
-	background: var(--brandColor);
 }
 
 .footer_text h2 {
-	font-size: 25px;
-	margin-bottom: 34px;
+	font-size: 36px;
 }
+
 .footer_text p {
-	font-size: 13px;
-	line-height: 30px;
+	font-size: 16px;
 }
+
 .footer_pictures_tex h2 {
-	font-size: 24px;
+	font-size: 43px;
 }
+
 .footer_pic {
   flex-wrap: wrap;
 }
